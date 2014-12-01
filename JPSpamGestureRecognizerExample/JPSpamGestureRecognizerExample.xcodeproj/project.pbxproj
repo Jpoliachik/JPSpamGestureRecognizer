@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09B32171A2C2AC0007C1269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09B32161A2C2AC0007C1269 /* main.m */; };
+		D09B321A1A2C2AC0007C1269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09B32191A2C2AC0007C1269 /* AppDelegate.m */; };
+		D09B321D1A2C2AC0007C1269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09B321C1A2C2AC0007C1269 /* ViewController.m */; };
+		D09B32201A2C2AC0007C1269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09B321E1A2C2AC0007C1269 /* Main.storyboard */; };
+		D09B32221A2C2AC0007C1269 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09B32211A2C2AC0007C1269 /* Images.xcassets */; };
+		D09B32251A2C2AC0007C1269 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09B32231A2C2AC0007C1269 /* LaunchScreen.xib */; };
+		D09B32311A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09B32301A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.m */; };
+		D09B323D1A2C2B13007C1269 /* JPSpamGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D09B323C1A2C2B13007C1269 /* JPSpamGestureRecognizer.m */; };
+		D09B32421A2C2C9A007C1269 /* SpamView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09B32411A2C2C9A007C1269 /* SpamView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09B322B1A2C2AC0007C1269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09B32091A2C2AC0007C1269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09B32101A2C2AC0007C1269;
+			remoteInfo = JPSpamGestureRecognizerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09B32111A2C2AC0007C1269 /* JPSpamGestureRecognizerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPSpamGestureRecognizerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09B32151A2C2AC0007C1269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09B32161A2C2AC0007C1269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09B32181A2C2AC0007C1269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D09B32191A2C2AC0007C1269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D09B321B1A2C2AC0007C1269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D09B321C1A2C2AC0007C1269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D09B321F1A2C2AC0007C1269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09B32211A2C2AC0007C1269 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D09B32241A2C2AC0007C1269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D09B322A1A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPSpamGestureRecognizerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09B322F1A2C2AC0007C1269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09B32301A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPSpamGestureRecognizerExampleTests.m; sourceTree = "<group>"; };
+		D09B323B1A2C2B13007C1269 /* JPSpamGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSpamGestureRecognizer.h; sourceTree = "<group>"; };
+		D09B323C1A2C2B13007C1269 /* JPSpamGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSpamGestureRecognizer.m; sourceTree = "<group>"; };
+		D09B32411A2C2C9A007C1269 /* SpamView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpamView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09B320E1A2C2AC0007C1269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09B32271A2C2AC0007C1269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09B32081A2C2AC0007C1269 = {
+			isa = PBXGroup;
+			children = (
+				D09B32131A2C2AC0007C1269 /* JPSpamGestureRecognizerExample */,
+				D09B322D1A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests */,
+				D09B32121A2C2AC0007C1269 /* Products */,
+				D09B323A1A2C2B13007C1269 /* JPSpamGestureRecognizer */,
+			);
+			sourceTree = "<group>";
+		};
+		D09B32121A2C2AC0007C1269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09B32111A2C2AC0007C1269 /* JPSpamGestureRecognizerExample.app */,
+				D09B322A1A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09B32131A2C2AC0007C1269 /* JPSpamGestureRecognizerExample */ = {
+			isa = PBXGroup;
+			children = (
+				D09B32181A2C2AC0007C1269 /* AppDelegate.h */,
+				D09B32191A2C2AC0007C1269 /* AppDelegate.m */,
+				D09B321B1A2C2AC0007C1269 /* ViewController.h */,
+				D09B321C1A2C2AC0007C1269 /* ViewController.m */,
+				D09B321E1A2C2AC0007C1269 /* Main.storyboard */,
+				D09B32211A2C2AC0007C1269 /* Images.xcassets */,
+				D09B32231A2C2AC0007C1269 /* LaunchScreen.xib */,
+				D09B32141A2C2AC0007C1269 /* Supporting Files */,
+				D09B32411A2C2C9A007C1269 /* SpamView.xib */,
+			);
+			path = JPSpamGestureRecognizerExample;
+			sourceTree = "<group>";
+		};
+		D09B32141A2C2AC0007C1269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09B32151A2C2AC0007C1269 /* Info.plist */,
+				D09B32161A2C2AC0007C1269 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09B322D1A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09B32301A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.m */,
+				D09B322E1A2C2AC0007C1269 /* Supporting Files */,
+			);
+			path = JPSpamGestureRecognizerExampleTests;
+			sourceTree = "<group>";
+		};
+		D09B322E1A2C2AC0007C1269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09B322F1A2C2AC0007C1269 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09B323A1A2C2B13007C1269 /* JPSpamGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				D09B323B1A2C2B13007C1269 /* JPSpamGestureRecognizer.h */,
+				D09B323C1A2C2B13007C1269 /* JPSpamGestureRecognizer.m */,
+			);
+			name = JPSpamGestureRecognizer;
+			path = ../JPSpamGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09B32101A2C2AC0007C1269 /* JPSpamGestureRecognizerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09B32341A2C2AC0007C1269 /* Build configuration list for PBXNativeTarget "JPSpamGestureRecognizerExample" */;
+			buildPhases = (
+				D09B320D1A2C2AC0007C1269 /* Sources */,
+				D09B320E1A2C2AC0007C1269 /* Frameworks */,
+				D09B320F1A2C2AC0007C1269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSpamGestureRecognizerExample;
+			productName = JPSpamGestureRecognizerExample;
+			productReference = D09B32111A2C2AC0007C1269 /* JPSpamGestureRecognizerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09B32291A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09B32371A2C2AC0007C1269 /* Build configuration list for PBXNativeTarget "JPSpamGestureRecognizerExampleTests" */;
+			buildPhases = (
+				D09B32261A2C2AC0007C1269 /* Sources */,
+				D09B32271A2C2AC0007C1269 /* Frameworks */,
+				D09B32281A2C2AC0007C1269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09B322C1A2C2AC0007C1269 /* PBXTargetDependency */,
+			);
+			name = JPSpamGestureRecognizerExampleTests;
+			productName = JPSpamGestureRecognizerExampleTests;
+			productReference = D09B322A1A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09B32091A2C2AC0007C1269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = justinpoliachik;
+				TargetAttributes = {
+					D09B32101A2C2AC0007C1269 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D09B32291A2C2AC0007C1269 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D09B32101A2C2AC0007C1269;
+					};
+				};
+			};
+			buildConfigurationList = D09B320C1A2C2AC0007C1269 /* Build configuration list for PBXProject "JPSpamGestureRecognizerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09B32081A2C2AC0007C1269;
+			productRefGroup = D09B32121A2C2AC0007C1269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09B32101A2C2AC0007C1269 /* JPSpamGestureRecognizerExample */,
+				D09B32291A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09B320F1A2C2AC0007C1269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09B32201A2C2AC0007C1269 /* Main.storyboard in Resources */,
+				D09B32421A2C2C9A007C1269 /* SpamView.xib in Resources */,
+				D09B32251A2C2AC0007C1269 /* LaunchScreen.xib in Resources */,
+				D09B32221A2C2AC0007C1269 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09B32281A2C2AC0007C1269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09B320D1A2C2AC0007C1269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09B321D1A2C2AC0007C1269 /* ViewController.m in Sources */,
+				D09B321A1A2C2AC0007C1269 /* AppDelegate.m in Sources */,
+				D09B323D1A2C2B13007C1269 /* JPSpamGestureRecognizer.m in Sources */,
+				D09B32171A2C2AC0007C1269 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09B32261A2C2AC0007C1269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09B32311A2C2AC0007C1269 /* JPSpamGestureRecognizerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09B322C1A2C2AC0007C1269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09B32101A2C2AC0007C1269 /* JPSpamGestureRecognizerExample */;
+			targetProxy = D09B322B1A2C2AC0007C1269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09B321E1A2C2AC0007C1269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09B321F1A2C2AC0007C1269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09B32231A2C2AC0007C1269 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09B32241A2C2AC0007C1269 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09B32321A2C2AC0007C1269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D09B32331A2C2AC0007C1269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09B32351A2C2AC0007C1269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPSpamGestureRecognizerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D09B32361A2C2AC0007C1269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPSpamGestureRecognizerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D09B32381A2C2AC0007C1269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JPSpamGestureRecognizerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPSpamGestureRecognizerExample.app/JPSpamGestureRecognizerExample";
+			};
+			name = Debug;
+		};
+		D09B32391A2C2AC0007C1269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JPSpamGestureRecognizerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPSpamGestureRecognizerExample.app/JPSpamGestureRecognizerExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09B320C1A2C2AC0007C1269 /* Build configuration list for PBXProject "JPSpamGestureRecognizerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09B32321A2C2AC0007C1269 /* Debug */,
+				D09B32331A2C2AC0007C1269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09B32341A2C2AC0007C1269 /* Build configuration list for PBXNativeTarget "JPSpamGestureRecognizerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09B32351A2C2AC0007C1269 /* Debug */,
+				D09B32361A2C2AC0007C1269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09B32371A2C2AC0007C1269 /* Build configuration list for PBXNativeTarget "JPSpamGestureRecognizerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09B32381A2C2AC0007C1269 /* Debug */,
+				D09B32391A2C2AC0007C1269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09B32091A2C2AC0007C1269 /* Project object */;
+}
