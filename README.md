@@ -1,13 +1,24 @@
 JPSpamGestureRecognizer
 =======================
 
-Don't let users spam your app with taps!
+Detects rapid tapping
+
+`UIGestureRecognizer` subclass that watches for repeated taps within 1 second.
+
 
 ![alt tag](https://raw.githubusercontent.com/Jpoliachik/JPSpamGestureRecognizer/master/spamvideogif.gif)
 
-`UIGestureRecognizer` subclass that watches for repeated taps within 1 second. 
+### Installation
 
-##### Usage
+##### Cocoapods
+`pod JPSpamGestureRecognizer`
+
+  -  Current Version: `0.1`
+
+Or copy `JPSpamGestureRecognizer` header and footer into project.
+
+
+### Usage
 
 Add the gesture recognizer to any `UIView`
 
@@ -17,7 +28,6 @@ spamGesture.numberOfTapsPerSecondRequired = 4;
 spamGesture.recognizedBlock = ^{
      // alternate gesture recognizer block
 };
-    
+
 [self.view addGestureRecognizer:spamGesture];
 ```
-
