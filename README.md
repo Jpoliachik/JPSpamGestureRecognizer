@@ -10,7 +10,7 @@ Detects rapid tapping
 
 ### Installation
 
-##### Cocoapods
+##### CocoaPods
 `pod JPSpamGestureRecognizer`
 
   -  Current Version: `0.1`
